@@ -85,7 +85,7 @@ public class MainStudent {
             System.out.println();
             System.out.println("=============================");
             inisiswa[i].displayMessage();
-            Student.jumlahObject();
+            Student.jumlahObject(); //UNTUK SOAL NO 5
         }
     }
 }
