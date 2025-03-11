@@ -6,7 +6,7 @@ public class Student {
     private double englishGrade;
     private double scienceGrade;
     private double average;
-    private static int jumlahObject;
+    private static int jumlahObject; //UNTUK SOAL NO 5
 
     public Student() { // konstruktor1
         name = "";
@@ -67,7 +67,7 @@ public class Student {
         }
     }
 
-    public static void jumlahObject() {
+    public static void jumlahObject() { //METHOD UNTUK SOAL NO 5
         System.out.println("================================================");
         System.out.println("JUMLAH OBJECT YANG SUDAH DIBUAT SEJAUH INI: " + jumlahObject);
         System.out.println("================================================");
